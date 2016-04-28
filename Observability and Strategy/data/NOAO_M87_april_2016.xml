@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.1 http://www.ivoa.net/xml/VOTable/v1.1"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.1">
+  <DESCRIPTION>
+    Catalog subset of NOAO Data Portal Query holdings generated during
+    session 641f46d859b0047e7ae9d26d2a47c4e7 at 2016-04-28 12:45:04 -0700
+  </DESCRIPTION>
+  <DEFINITIONS>
+    <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  </DEFINITIONS>
+  <RESOURCE ID="np_catalog_subset" name="NOAO Data Portal Query Catalog Subset">
+    <TABLE ID="np_catalog_subset_table1" name="NOAO Data Portal Query Catalog Subset/Table 1">
+      <DESCRIPTION>The catalog</DESCRIPTION>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="reference" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtpropid" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="surveyid" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="release_date" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="start_date" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="date_obs" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtpi" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="ra" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="dec" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="telescope" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="instrument" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="filter" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="exposure" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="obstype" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="obsmode" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="proctype" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="prodtype" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="seeing" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="depth" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtacqnam" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="archive_file" 
+        ucd=""/>
+      <FIELD datatype="int"
+         
+        
+        
+        name="filesize" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="md5sum" 
+        ucd=""/>
+      <DATA>
+        <TABLEDATA>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150410_033624_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2015-04-08</TD>
+          <TD>2015-04-09</TD>
+          <TD>2015-04-10 03:34:06.54</TD>
+          <TD>Schlegel</TD>
+          <TD>187.597750</TD>
+          <TD>12.752278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>87.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00431195.fits.fz</TD>
+          <TD>c4d_150410_033624_ooi_z_v1.fits.fz</TD>
+          <TD>317338560</TD>
+          <TD>8d08e360b3eb9c91f928f60dd225e430</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150410_035237_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2015-04-08</TD>
+          <TD>2015-04-09</TD>
+          <TD>2015-04-10 03:50:19.01</TD>
+          <TD>Schlegel</TD>
+          <TD>186.625708</TD>
+          <TD>11.284222</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>88.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00431203.fits.fz</TD>
+          <TD>c4d_150410_035237_ooi_z_v1.fits.fz</TD>
+          <TD>317364480</TD>
+          <TD>3300bce6a2b9e6de2afd0af92f833f6e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150410_035628_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2015-04-08</TD>
+          <TD>2015-04-09</TD>
+          <TD>2015-04-10 03:54:10.375</TD>
+          <TD>Schlegel</TD>
+          <TD>188.496833</TD>
+          <TD>11.381139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>89.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00431205.fits.fz</TD>
+          <TD>c4d_150410_035628_ooi_z_v1.fits.fz</TD>
+          <TD>317347200</TD>
+          <TD>a5d9adca9619b5a656a5e3b19a24f30b</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_160301_074336_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2016-02-28</TD>
+          <TD>2016-02-29</TD>
+          <TD>2016-03-01 07:41:13.784</TD>
+          <TD>Schlegel</TD>
+          <TD>186.291292</TD>
+          <TD>12.513611</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>91.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00521828.fits.fz</TD>
+          <TD>c4d_160301_074336_ooi_z_v1.fits.fz</TD>
+          <TD>317764800</TD>
+          <TD>685f5df8f33eb5c70ccf31c9c6367ed9</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_160301_093246_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2016-02-28</TD>
+          <TD>2016-02-29</TD>
+          <TD>2016-03-01 09:30:36.311</TD>
+          <TD>Schlegel</TD>
+          <TD>188.788458</TD>
+          <TD>11.296917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>81.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00521883.fits.fz</TD>
+          <TD>c4d_160301_093246_ooi_z_v1.fits.fz</TD>
+          <TD>317868480</TD>
+          <TD>86d9dccd03e62aff6a07ff13d28525f2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_160302_092532_ooi_z_v1.fits.fz</TD>
+          <TD>2014B-0404</TD>
+      <TD></TD>
+          <TD>2016-02-29</TD>
+          <TD>2016-03-01</TD>
+          <TD>2016-03-02 09:23:22.222</TD>
+          <TD>Schlegel</TD>
+          <TD>187.889375</TD>
+          <TD>12.664139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>80.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0404/DECam_00522252.fits.fz</TD>
+          <TD>c4d_160302_092532_ooi_z_v1.fits.fz</TD>
+          <TD>317563200</TD>
+          <TD>6d635e51e7fb6786ee8ec845a5cdb580</TD>
+</TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>

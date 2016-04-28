@@ -1,0 +1,3585 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.1 http://www.ivoa.net/xml/VOTable/v1.1"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.1">
+  <DESCRIPTION>
+    Catalog subset of NOAO Data Portal Query holdings generated during
+    session 81c368440ffbea58dd17baf8e7cf7596 at 2016-04-27 20:36:47 -0700
+  </DESCRIPTION>
+  <DEFINITIONS>
+    <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  </DEFINITIONS>
+  <RESOURCE ID="np_catalog_subset" name="NOAO Data Portal Query Catalog Subset">
+    <TABLE ID="np_catalog_subset_table1" name="NOAO Data Portal Query Catalog Subset/Table 1">
+      <DESCRIPTION>The catalog</DESCRIPTION>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="reference" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtpropid" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="surveyid" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="release_date" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="start_date" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="date_obs" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtpi" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="ra" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="dec" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="telescope" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="instrument" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="filter" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="exposure" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="obstype" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="obsmode" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="proctype" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="prodtype" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="seeing" 
+        ucd=""/>
+      <FIELD datatype="double"
+         
+        
+        
+        name="depth" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="dtacqnam" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="archive_file" 
+        ucd=""/>
+      <FIELD datatype="int"
+         
+        
+        
+        name="filesize" 
+        ucd=""/>
+      <FIELD datatype="char"
+         
+        
+        arraysize="*"
+        name="md5sum" 
+        ucd=""/>
+      <DATA>
+        <TABLEDATA>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130124_070333_ooi_g_a1.fits.fz</TD>
+          <TD>2012B-9999</TD>
+      <TD></TD>
+          <TD>2013-01-22</TD>
+          <TD>2013-01-23</TD>
+          <TD>2013-01-24 07:03:33.256</TD>
+          <TD>Silva</TD>
+          <TD>150.005042</TD>
+          <TD>-10.079333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2012B-9999/DECam_00172320.fits.fz</TD>
+          <TD>c4d_130124_070333_ooi_g_a1.fits.fz</TD>
+          <TD>321367680</TD>
+          <TD>77303ad6ce92fb6e623cef5b5e83c59a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1915986.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:01:31.151</TD>
+          <TD>von der Linden</TD>
+          <TD>149.251792</TD>
+          <TD>-9.971111</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174471.fits.fz</TD>
+          <TD>tu1915986.fits.fz</TD>
+          <TD>315276480</TD>
+          <TD>15630f83af8ab6c82e89b473c7682ad4</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_070131_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:01:31.151</TD>
+          <TD>von der Linden</TD>
+          <TD>149.251792</TD>
+          <TD>-9.971111</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174471.fits.fz</TD>
+          <TD>c4d_130202_070131_ooi_z_v1.fits.fz</TD>
+          <TD>323072640</TD>
+          <TD>9dfa8341b1f16766a1a7fb83c19c221b</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_070603_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:06:03.455</TD>
+          <TD>von der Linden</TD>
+          <TD>149.268417</TD>
+          <TD>-9.954528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174472.fits.fz</TD>
+          <TD>c4d_130202_070603_ooi_z_v1.fits.fz</TD>
+          <TD>323064000</TD>
+          <TD>5193dd6c780208ffb799e1f15f44a3dd</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1920552.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:06:03.455</TD>
+          <TD>von der Linden</TD>
+          <TD>149.268417</TD>
+          <TD>-9.954528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174472.fits.fz</TD>
+          <TD>tu1920552.fits.fz</TD>
+          <TD>315267840</TD>
+          <TD>95a213b8d76bb2bbb89a06b0bfdb13a7</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_071034_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:10:34.319</TD>
+          <TD>von der Linden</TD>
+          <TD>149.285292</TD>
+          <TD>-9.987972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174473.fits.fz</TD>
+          <TD>c4d_130202_071034_ooi_z_v1.fits.fz</TD>
+          <TD>323087040</TD>
+          <TD>7d47e4292a640088d6ea36fb14da8846</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1920168.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:10:34.319</TD>
+          <TD>von der Linden</TD>
+          <TD>149.285292</TD>
+          <TD>-9.988000</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174473.fits.fz</TD>
+          <TD>tu1920168.fits.fz</TD>
+          <TD>315236160</TD>
+          <TD>7f7fb576cb291b96671f3ab2a8e92161</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1919193.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:15:03.949</TD>
+          <TD>von der Linden</TD>
+          <TD>149.234958</TD>
+          <TD>-10.004778</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174474.fits.fz</TD>
+          <TD>tu1919193.fits.fz</TD>
+          <TD>315164160</TD>
+          <TD>778b70f20bb8be206b4429a52069b46c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_071503_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:15:03.949</TD>
+          <TD>von der Linden</TD>
+          <TD>149.234917</TD>
+          <TD>-10.004778</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174474.fits.fz</TD>
+          <TD>c4d_130202_071503_ooi_z_v1.fits.fz</TD>
+          <TD>323023680</TD>
+          <TD>a7ac6207c34a6810cd1f6a73e86cd4c6</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_071932_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:19:32.139</TD>
+          <TD>von der Linden</TD>
+          <TD>149.218000</TD>
+          <TD>-9.938056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174475.fits.fz</TD>
+          <TD>c4d_130202_071932_ooi_z_v1.fits.fz</TD>
+          <TD>323078400</TD>
+          <TD>b1271280c75b14b20f027ee14625317d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918291.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:19:32.139</TD>
+          <TD>von der Linden</TD>
+          <TD>149.218000</TD>
+          <TD>-9.938056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174475.fits.fz</TD>
+          <TD>tu1918291.fits.fz</TD>
+          <TD>315172800</TD>
+          <TD>a2fbe5e759853ace4b02ff158b224831</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1916535.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:24:01.564</TD>
+          <TD>von der Linden</TD>
+          <TD>149.302542</TD>
+          <TD>-9.921306</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174476.fits.fz</TD>
+          <TD>tu1916535.fits.fz</TD>
+          <TD>315083520</TD>
+          <TD>c4cf43997dcf4a4f36949626a3ca248b</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_072401_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:24:01.564</TD>
+          <TD>von der Linden</TD>
+          <TD>149.302542</TD>
+          <TD>-9.921306</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174476.fits.fz</TD>
+          <TD>c4d_130202_072401_ooi_z_v1.fits.fz</TD>
+          <TD>323035200</TD>
+          <TD>ce71d7d20e18235b3f53fc438bd1dc90</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_072833_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:28:33.696</TD>
+          <TD>von der Linden</TD>
+          <TD>149.319458</TD>
+          <TD>-10.021222</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174477.fits.fz</TD>
+          <TD>c4d_130202_072833_ooi_z_v1.fits.fz</TD>
+          <TD>323107200</TD>
+          <TD>87927c9cad6e83f08f92aeec71cfd047</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1920000.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:28:33.696</TD>
+          <TD>von der Linden</TD>
+          <TD>149.319458</TD>
+          <TD>-10.021222</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174477.fits.fz</TD>
+          <TD>tu1920000.fits.fz</TD>
+          <TD>315074880</TD>
+          <TD>7ede2f890f8ad62e6aa42a7994db633e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1916183.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:33:03.301</TD>
+          <TD>von der Linden</TD>
+          <TD>149.201000</TD>
+          <TD>-10.037917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174478.fits.fz</TD>
+          <TD>tu1916183.fits.fz</TD>
+          <TD>315112320</TD>
+          <TD>ffb3e6bff048329e7f4ed65d748c3946</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_073303_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:33:03.301</TD>
+          <TD>von der Linden</TD>
+          <TD>149.201000</TD>
+          <TD>-10.037917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174478.fits.fz</TD>
+          <TD>c4d_130202_073303_ooi_z_v1.fits.fz</TD>
+          <TD>323061120</TD>
+          <TD>81e8f82102b03ddda09c03dd9164c291</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_073731_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:37:31.731</TD>
+          <TD>von der Linden</TD>
+          <TD>149.183792</TD>
+          <TD>-9.904139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174479.fits.fz</TD>
+          <TD>c4d_130202_073731_ooi_z_v1.fits.fz</TD>
+          <TD>323055360</TD>
+          <TD>60b1895ec6562ff12ee8966e97800dd6</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1916169.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:37:31.731</TD>
+          <TD>von der Linden</TD>
+          <TD>149.183792</TD>
+          <TD>-9.904167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174479.fits.fz</TD>
+          <TD>tu1916169.fits.fz</TD>
+          <TD>315086400</TD>
+          <TD>0977018174ad887869dc853f658466c9</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_074159_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:41:59.956</TD>
+          <TD>von der Linden</TD>
+          <TD>149.335917</TD>
+          <TD>-9.887417</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174480.fits.fz</TD>
+          <TD>c4d_130202_074159_ooi_z_v1.fits.fz</TD>
+          <TD>323087040</TD>
+          <TD>9ef5ba2e5f4b3b9acd8d45bc8d896ad3</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1917049.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:41:59.956</TD>
+          <TD>von der Linden</TD>
+          <TD>149.335917</TD>
+          <TD>-9.887417</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174480.fits.fz</TD>
+          <TD>tu1917049.fits.fz</TD>
+          <TD>315112320</TD>
+          <TD>52a200e6826397eb61a8be067d9d680d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918788.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:46:31.275</TD>
+          <TD>von der Linden</TD>
+          <TD>149.352875</TD>
+          <TD>-10.053972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174481.fits.fz</TD>
+          <TD>tu1918788.fits.fz</TD>
+          <TD>315074880</TD>
+          <TD>4d7d358e87f48900b9420f066189b59e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_074631_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:46:31.275</TD>
+          <TD>von der Linden</TD>
+          <TD>149.352875</TD>
+          <TD>-10.053944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174481.fits.fz</TD>
+          <TD>c4d_130202_074631_ooi_z_v1.fits.fz</TD>
+          <TD>323064000</TD>
+          <TD>6cae1f086339728ff1db1adea19badfd</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1920540.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:50:59.762</TD>
+          <TD>von der Linden</TD>
+          <TD>149.166750</TD>
+          <TD>-10.070528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174482.fits.fz</TD>
+          <TD>tu1920540.fits.fz</TD>
+          <TD>315095040</TD>
+          <TD>45a152e66bde1440cc8237a1c4737ed2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_075059_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:50:59.762</TD>
+          <TD>von der Linden</TD>
+          <TD>149.166750</TD>
+          <TD>-10.070528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174482.fits.fz</TD>
+          <TD>c4d_130202_075059_ooi_z_v1.fits.fz</TD>
+          <TD>323084160</TD>
+          <TD>6a988765665cdacf18858ff19bf1383e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918476.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:55:28.27</TD>
+          <TD>von der Linden</TD>
+          <TD>149.149833</TD>
+          <TD>-9.870444</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174483.fits.fz</TD>
+          <TD>tu1918476.fits.fz</TD>
+          <TD>315037440</TD>
+          <TD>38f7c94849b7d021ab54d3c7d5e1c6ee</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_075528_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:55:28.27</TD>
+          <TD>von der Linden</TD>
+          <TD>149.149833</TD>
+          <TD>-9.870417</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174483.fits.fz</TD>
+          <TD>c4d_130202_075528_ooi_z_v1.fits.fz</TD>
+          <TD>323075520</TD>
+          <TD>9666da7e23beee872bd7e4c4fe7e52c4</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_075956_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:59:56.627</TD>
+          <TD>von der Linden</TD>
+          <TD>149.369542</TD>
+          <TD>-9.853722</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174484.fits.fz</TD>
+          <TD>c4d_130202_075956_ooi_z_v1.fits.fz</TD>
+          <TD>323064000</TD>
+          <TD>34c133827d03f62d3d1cf4da32336b7a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918994.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 07:59:56.627</TD>
+          <TD>von der Linden</TD>
+          <TD>149.369542</TD>
+          <TD>-9.853722</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174484.fits.fz</TD>
+          <TD>tu1918994.fits.fz</TD>
+          <TD>315051840</TD>
+          <TD>1e734c2f530721c9d74d365e0b9e4770</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_080428_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:04:28.531</TD>
+          <TD>von der Linden</TD>
+          <TD>149.386583</TD>
+          <TD>-10.086944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174485.fits.fz</TD>
+          <TD>c4d_130202_080428_ooi_z_v1.fits.fz</TD>
+          <TD>323124480</TD>
+          <TD>77761091078fa2bd13b38f3c4061d2a7</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1917045.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:04:28.531</TD>
+          <TD>von der Linden</TD>
+          <TD>149.386583</TD>
+          <TD>-10.086917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174485.fits.fz</TD>
+          <TD>tu1917045.fits.fz</TD>
+          <TD>315005760</TD>
+          <TD>6ea4bcdb9c543c6d3e5707f15bb76a8a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_080857_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:08:57.156</TD>
+          <TD>von der Linden</TD>
+          <TD>149.132708</TD>
+          <TD>-10.103611</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174486.fits.fz</TD>
+          <TD>c4d_130202_080857_ooi_z_v1.fits.fz</TD>
+          <TD>323115840</TD>
+          <TD>fd582e301def596c960e8af6560a7956</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1921722.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:08:57.156</TD>
+          <TD>von der Linden</TD>
+          <TD>149.132667</TD>
+          <TD>-10.103611</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>240.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174486.fits.fz</TD>
+          <TD>tu1921722.fits.fz</TD>
+          <TD>315069120</TD>
+          <TD>d3c29b4323d9571e6a29e0ae5831055d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_081325_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:13:25.66</TD>
+          <TD>von der Linden</TD>
+          <TD>149.666417</TD>
+          <TD>-9.839167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>120.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174487.fits.fz</TD>
+          <TD>c4d_130202_081325_ooi_z_v1.fits.fz</TD>
+          <TD>322162560</TD>
+          <TD>8644a5495226fe6350dbe9bace3858fe</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918122.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:13:25.66</TD>
+          <TD>von der Linden</TD>
+          <TD>149.666417</TD>
+          <TD>-9.839167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>120.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174487.fits.fz</TD>
+          <TD>tu1918122.fits.fz</TD>
+          <TD>314919360</TD>
+          <TD>4cb22f67c4eddf7e47e25ae5eecd70ae</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1918113.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:18:26.95</TD>
+          <TD>von der Linden</TD>
+          <TD>148.962417</TD>
+          <TD>-9.620528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>120.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174489.fits.fz</TD>
+          <TD>tu1918113.fits.fz</TD>
+          <TD>314879040</TD>
+          <TD>5d39b163eaa60b3bb9b3630aa27e077f</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130202_081826_ooi_z_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-02</TD>
+          <TD>2013-02-01</TD>
+          <TD>2013-02-02 08:18:26.95</TD>
+          <TD>von der Linden</TD>
+          <TD>148.962417</TD>
+          <TD>-9.620500</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>z DECam SDSS c0004 9260.0 1520.0</TD>
+          <TD>120.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00174489.fits.fz</TD>
+          <TD>c4d_130202_081826_ooi_z_v1.fits.fz</TD>
+          <TD>322286400</TD>
+          <TD>47e3fc38c15226718a57bedfdeb42e23</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_050146_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:01:46.999</TD>
+          <TD>von der Linden</TD>
+          <TD>149.120208</TD>
+          <TD>-10.154028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176294.fits.fz</TD>
+          <TD>c4d_130208_050146_ooi_g_v1.fits.fz</TD>
+          <TD>320175360</TD>
+          <TD>4fd5874681555e7562c01afc52ec83ad</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1939233.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:01:46.999</TD>
+          <TD>von der Linden</TD>
+          <TD>149.120208</TD>
+          <TD>-10.154028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176294.fits.fz</TD>
+          <TD>tu1939233.fits.fz</TD>
+          <TD>315760320</TD>
+          <TD>d69efefcdec3c218a4883ea0ae2fc866</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1939496.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:05:35.26</TD>
+          <TD>von der Linden</TD>
+          <TD>149.154250</TD>
+          <TD>-10.120667</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176295.fits.fz</TD>
+          <TD>tu1939496.fits.fz</TD>
+          <TD>315754560</TD>
+          <TD>2cf0d0648ed6d267a91ca17994741879</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_050535_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:05:35.26</TD>
+          <TD>von der Linden</TD>
+          <TD>149.154250</TD>
+          <TD>-10.120667</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176295.fits.fz</TD>
+          <TD>c4d_130208_050535_ooi_g_v1.fits.fz</TD>
+          <TD>320143680</TD>
+          <TD>cee052cbdf8180e7ddd5baba6dd6e09f</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1940340.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:09:23.279</TD>
+          <TD>von der Linden</TD>
+          <TD>149.188375</TD>
+          <TD>-10.186972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176296.fits.fz</TD>
+          <TD>tu1940340.fits.fz</TD>
+          <TD>315699840</TD>
+          <TD>baa577664c9e159a0c0433839a2f50b4</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_050923_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:09:23.279</TD>
+          <TD>von der Linden</TD>
+          <TD>149.188375</TD>
+          <TD>-10.186972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176296.fits.fz</TD>
+          <TD>c4d_130208_050923_ooi_g_v1.fits.fz</TD>
+          <TD>320137920</TD>
+          <TD>9511426baa18aa21dab2eddfccee9f11</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1939240.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:17:00.091</TD>
+          <TD>von der Linden</TD>
+          <TD>149.053458</TD>
+          <TD>-10.086972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176298.fits.fz</TD>
+          <TD>tu1939240.fits.fz</TD>
+          <TD>315806400</TD>
+          <TD>95882a66a42f2dbeaae31beb9d405aa9</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_051700_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:17:00.091</TD>
+          <TD>von der Linden</TD>
+          <TD>149.053458</TD>
+          <TD>-10.086972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176298.fits.fz</TD>
+          <TD>c4d_130208_051700_ooi_g_v1.fits.fz</TD>
+          <TD>320437440</TD>
+          <TD>877c4908f94c0b548f6c474c9181c06f</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1941618.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:20:48.319</TD>
+          <TD>von der Linden</TD>
+          <TD>149.222833</TD>
+          <TD>-10.053667</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176300.fits.fz</TD>
+          <TD>tu1941618.fits.fz</TD>
+          <TD>315717120</TD>
+          <TD>750492d180a1b1728f437bee986df1c2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_052048_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:20:48.319</TD>
+          <TD>von der Linden</TD>
+          <TD>149.222833</TD>
+          <TD>-10.053667</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176300.fits.fz</TD>
+          <TD>c4d_130208_052048_ooi_g_v1.fits.fz</TD>
+          <TD>320109120</TD>
+          <TD>25f613426b2958f1060fc5907886a172</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1939693.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:25:14.856</TD>
+          <TD>von der Linden</TD>
+          <TD>149.255667</TD>
+          <TD>-10.179028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176302.fits.fz</TD>
+          <TD>tu1939693.fits.fz</TD>
+          <TD>314930880</TD>
+          <TD>b76cbaf1482352d2d51f043fc8d2da03</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_052514_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:25:14.856</TD>
+          <TD>von der Linden</TD>
+          <TD>149.255625</TD>
+          <TD>-10.179028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176302.fits.fz</TD>
+          <TD>c4d_130208_052514_ooi_g_v1.fits.fz</TD>
+          <TD>319397760</TD>
+          <TD>64bbfe3e1c53bc5c4a89b97d94e6101c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1941238.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:29:03.058</TD>
+          <TD>von der Linden</TD>
+          <TD>149.017333</TD>
+          <TD>-10.212639</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176303.fits.fz</TD>
+          <TD>tu1941238.fits.fz</TD>
+          <TD>316002240</TD>
+          <TD>dd8c3e866e6feb062ddc1ce244c02d2a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_052903_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:29:03.058</TD>
+          <TD>von der Linden</TD>
+          <TD>149.017375</TD>
+          <TD>-10.212639</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176303.fits.fz</TD>
+          <TD>c4d_130208_052903_ooi_g_v1.fits.fz</TD>
+          <TD>320486400</TD>
+          <TD>ce6210efd794e767f55f2c325e86fdec</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_130208_053251_ooi_g_v1.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:32:51.842</TD>
+          <TD>von der Linden</TD>
+          <TD>148.982625</TD>
+          <TD>-9.945972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176304.fits.fz</TD>
+          <TD>c4d_130208_053251_ooi_g_v1.fits.fz</TD>
+          <TD>320008320</TD>
+          <TD>67d59a6de066a959d941bf8cf45c50f8</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=tu1940808.fits.fz</TD>
+          <TD>2013A-0360</TD>
+      <TD></TD>
+          <TD>2014-08-08</TD>
+          <TD>2013-02-07</TD>
+          <TD>2013-02-08 05:32:51.842</TD>
+          <TD>von der Linden</TD>
+          <TD>148.982625</TD>
+          <TD>-9.945972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>200.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2013A-0360/DECam_00176304.fits.fz</TD>
+          <TD>tu1940808.fits.fz</TD>
+          <TD>315599040</TD>
+          <TD>371f05c949704f6bfeae9bc2c825a5cd</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140404_234050_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-05</TD>
+          <TD>2014-04-04</TD>
+          <TD>2014-04-04 23:34:59.154</TD>
+          <TD>Taylor</TD>
+          <TD>151.327292</TD>
+          <TD>-7.731500</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00298954.fits.fz</TD>
+          <TD>c4d_140404_234050_ooi_i_v1.fits.fz</TD>
+          <TD>315469440</TD>
+          <TD>919281e729f88feead74a38951a6a439</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140404_234619_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-05</TD>
+          <TD>2014-04-04</TD>
+          <TD>2014-04-04 23:40:27.646</TD>
+          <TD>Taylor</TD>
+          <TD>151.327000</TD>
+          <TD>-7.698167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00298955.fits.fz</TD>
+          <TD>c4d_140404_234619_ooi_i_v1.fits.fz</TD>
+          <TD>315250560</TD>
+          <TD>2511fb294b9008f8535c4ad51574ea10</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140404_235148_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-05</TD>
+          <TD>2014-04-04</TD>
+          <TD>2014-04-04 23:45:54.452</TD>
+          <TD>Taylor</TD>
+          <TD>151.292500</TD>
+          <TD>-7.697972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00298956.fits.fz</TD>
+          <TD>c4d_140404_235148_ooi_i_v1.fits.fz</TD>
+          <TD>315371520</TD>
+          <TD>4bb903e8b69c1b3abcc889654000fb73</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140404_235713_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-05</TD>
+          <TD>2014-04-04</TD>
+          <TD>2014-04-04 23:51:22.641</TD>
+          <TD>Taylor</TD>
+          <TD>151.292333</TD>
+          <TD>-7.731750</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00298957.fits.fz</TD>
+          <TD>c4d_140404_235713_ooi_i_v1.fits.fz</TD>
+          <TD>315440640</TD>
+          <TD>6ffae253eb59b29bc2a18a5597bfc170</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_232921_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:23:25.808</TD>
+          <TD>Taylor</TD>
+          <TD>151.327875</TD>
+          <TD>-7.731167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299441.fits.fz</TD>
+          <TD>c4d_140405_232921_ooi_g_v1.fits.fz</TD>
+          <TD>313410240</TD>
+          <TD>d51bbe1e495988c451202b8331641c80</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_233447_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:28:55.068</TD>
+          <TD>Taylor</TD>
+          <TD>151.326833</TD>
+          <TD>-7.697778</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299442.fits.fz</TD>
+          <TD>c4d_140405_233447_ooi_g_v1.fits.fz</TD>
+          <TD>313626240</TD>
+          <TD>11eadbb4a9324a31fa916c7037ad99dd</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_234018_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:34:23.09</TD>
+          <TD>Taylor</TD>
+          <TD>151.292792</TD>
+          <TD>-7.698583</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299443.fits.fz</TD>
+          <TD>c4d_140405_234018_ooi_g_v1.fits.fz</TD>
+          <TD>313787520</TD>
+          <TD>f8141c30b3fcb58bdf954158f702b934</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_234545_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:39:52.461</TD>
+          <TD>Taylor</TD>
+          <TD>151.292792</TD>
+          <TD>-7.732528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299444.fits.fz</TD>
+          <TD>c4d_140405_234545_ooi_g_v1.fits.fz</TD>
+          <TD>314098560</TD>
+          <TD>3f1954f2100e825b5decab9d6e2ee95a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_235215_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:46:20.919</TD>
+          <TD>Taylor</TD>
+          <TD>151.325792</TD>
+          <TD>-7.715333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299445.fits.fz</TD>
+          <TD>c4d_140405_235215_ooi_i_v1.fits.fz</TD>
+          <TD>315334080</TD>
+          <TD>8be8b742dfa68c4efbb4bd37363f83bf</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140405_235743_ooi_i_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:51:49.414</TD>
+          <TD>Taylor</TD>
+          <TD>151.292208</TD>
+          <TD>-7.715056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299446.fits.fz</TD>
+          <TD>c4d_140405_235743_ooi_i_v1.fits.fz</TD>
+          <TD>315403200</TD>
+          <TD>e47c7c3a7c865a2df29dc3b656e75744</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140406_000312_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-05 23:57:17.577</TD>
+          <TD>Taylor</TD>
+          <TD>151.325583</TD>
+          <TD>-7.714556</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299447.fits.fz</TD>
+          <TD>c4d_140406_000312_ooi_g_v1.fits.fz</TD>
+          <TD>314089920</TD>
+          <TD>4640c2665c9e1ad50f41766fa7311a7d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_140406_000839_ooi_g_v1.fits.fz</TD>
+          <TD>2014A-0610</TD>
+      <TD></TD>
+          <TD>2015-10-06</TD>
+          <TD>2014-04-05</TD>
+          <TD>2014-04-06 00:02:45.409</TD>
+          <TD>Taylor</TD>
+          <TD>151.292000</TD>
+          <TD>-7.714944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>300.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014A-0610/DECam_00299448.fits.fz</TD>
+          <TD>c4d_140406_000839_ooi_g_v1.fits.fz</TD>
+          <TD>314141760</TD>
+          <TD>a3985731aa19e70a925eda1157d8e5f2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_015517_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 01:53:01.509</TD>
+          <TD>Forster</TD>
+          <TD>150.085875</TD>
+          <TD>-6.092306</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410869.fits.fz</TD>
+          <TD>c4d_150217_015517_ooi_r_v1.fits.fz</TD>
+          <TD>315930240</TD>
+          <TD>2691057d153becb130553ef5beaec1e8</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_015716_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 01:55:00.062</TD>
+          <TD>Forster</TD>
+          <TD>152.395958</TD>
+          <TD>-6.092278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410870.fits.fz</TD>
+          <TD>c4d_150217_015716_ooi_r_v1.fits.fz</TD>
+          <TD>315679680</TD>
+          <TD>435b569550f152cf41a3e1bf78ee0c48</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_033231_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 03:30:15.203</TD>
+          <TD>Forster</TD>
+          <TD>150.085250</TD>
+          <TD>-6.093639</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410919.fits.fz</TD>
+          <TD>c4d_150217_033231_ooi_g_v1.fits.fz</TD>
+          <TD>314075520</TD>
+          <TD>07ce85d51a029d9d38209e1d66b4030d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_033435_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 03:32:11.962</TD>
+          <TD>Forster</TD>
+          <TD>152.395083</TD>
+          <TD>-6.092944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410920.fits.fz</TD>
+          <TD>c4d_150217_033435_ooi_g_v1.fits.fz</TD>
+          <TD>313989120</TD>
+          <TD>9aae3f1283d7975511f5c7a877dc892f</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_053552_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 05:33:33.402</TD>
+          <TD>Forster</TD>
+          <TD>150.086708</TD>
+          <TD>-6.093333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410975.fits.fz</TD>
+          <TD>c4d_150217_053552_ooi_g_v1.fits.fz</TD>
+          <TD>314009280</TD>
+          <TD>d927a8395c4f3e3e24e3ea520bb8d3e4</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_053749_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 05:35:33.513</TD>
+          <TD>Forster</TD>
+          <TD>152.397333</TD>
+          <TD>-6.094028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00410976.fits.fz</TD>
+          <TD>c4d_150217_053749_ooi_g_v1.fits.fz</TD>
+          <TD>313770240</TD>
+          <TD>4a8b7654f6e4e8d9e5cacdfbfca84697</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_071441_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 07:12:20.976</TD>
+          <TD>Forster</TD>
+          <TD>150.088292</TD>
+          <TD>-6.093444</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411025.fits.fz</TD>
+          <TD>c4d_150217_071441_ooi_g_v1.fits.fz</TD>
+          <TD>314072640</TD>
+          <TD>8a419d13ef5bfd86dbcd0782fabd2327</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_071640_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 07:14:23.133</TD>
+          <TD>Forster</TD>
+          <TD>152.397833</TD>
+          <TD>-6.093444</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411026.fits.fz</TD>
+          <TD>c4d_150217_071640_ooi_g_v1.fits.fz</TD>
+          <TD>314043840</TD>
+          <TD>fca319f0296babb852cd86bb9a49556e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_082239_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 08:20:24.433</TD>
+          <TD>Forster</TD>
+          <TD>150.091875</TD>
+          <TD>-6.092694</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411059.fits.fz</TD>
+          <TD>c4d_150217_082239_ooi_g_v1.fits.fz</TD>
+          <TD>314133120</TD>
+          <TD>9ca14d06825018756b3a39311dac308d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150217_082437_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-17</TD>
+          <TD>2015-02-16</TD>
+          <TD>2015-02-17 08:22:22.507</TD>
+          <TD>Forster</TD>
+          <TD>152.401292</TD>
+          <TD>-6.093333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411060.fits.fz</TD>
+          <TD>c4d_150217_082437_ooi_g_v1.fits.fz</TD>
+          <TD>313989120</TD>
+          <TD>9113f7ba90a9dee0ff364f7907303c2c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_015012_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 01:47:56.354</TD>
+          <TD>Forster</TD>
+          <TD>150.085625</TD>
+          <TD>-6.092694</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411259.fits.fz</TD>
+          <TD>c4d_150218_015012_ooi_g_v1.fits.fz</TD>
+          <TD>314089920</TD>
+          <TD>99f327dd2c4788754246b2bf0220fc40</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_015209_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 01:49:53.917</TD>
+          <TD>Forster</TD>
+          <TD>152.395708</TD>
+          <TD>-6.093750</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411260.fits.fz</TD>
+          <TD>c4d_150218_015209_ooi_g_v1.fits.fz</TD>
+          <TD>314118720</TD>
+          <TD>b98fae29e6b7250132011ce58203c3b5</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_032733_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 03:25:17.794</TD>
+          <TD>Forster</TD>
+          <TD>150.085625</TD>
+          <TD>-6.092944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411309.fits.fz</TD>
+          <TD>c4d_150218_032733_ooi_g_v1.fits.fz</TD>
+          <TD>313885440</TD>
+          <TD>f1b1585d252b5c263396c47b085b67d5</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_032934_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 03:27:15.12</TD>
+          <TD>Forster</TD>
+          <TD>152.393292</TD>
+          <TD>-6.093917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411310.fits.fz</TD>
+          <TD>c4d_150218_032934_ooi_g_v1.fits.fz</TD>
+          <TD>313943040</TD>
+          <TD>8bc3ed84e1e8ade2059b9c1690968324</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_050517_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 05:03:01.998</TD>
+          <TD>Forster</TD>
+          <TD>150.086667</TD>
+          <TD>-6.094111</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411359.fits.fz</TD>
+          <TD>c4d_150218_050517_ooi_g_v1.fits.fz</TD>
+          <TD>313951680</TD>
+          <TD>8e63854be2f3deff4b028c85576fc4e7</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_050721_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 05:05:03.585</TD>
+          <TD>Forster</TD>
+          <TD>152.396333</TD>
+          <TD>-6.094583</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411360.fits.fz</TD>
+          <TD>c4d_150218_050721_ooi_g_v1.fits.fz</TD>
+          <TD>313943040</TD>
+          <TD>552a27cc6a26e531f0ac41b64b7662a4</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_064627_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 06:44:13.524</TD>
+          <TD>Forster</TD>
+          <TD>150.087167</TD>
+          <TD>-6.093417</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411410.fits.fz</TD>
+          <TD>c4d_150218_064627_ooi_g_v1.fits.fz</TD>
+          <TD>313980480</TD>
+          <TD>a093647c6a2e0f4126c1d6efafe77fa9</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_064824_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 06:46:11.435</TD>
+          <TD>Forster</TD>
+          <TD>152.397792</TD>
+          <TD>-6.093000</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411411.fits.fz</TD>
+          <TD>c4d_150218_064824_ooi_g_v1.fits.fz</TD>
+          <TD>313943040</TD>
+          <TD>1d478ffd1a9b0a1ccd8680bbb4f3d278</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_082553_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 08:23:34.579</TD>
+          <TD>Forster</TD>
+          <TD>150.091000</TD>
+          <TD>-6.093083</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411460.fits.fz</TD>
+          <TD>c4d_150218_082553_ooi_g_v1.fits.fz</TD>
+          <TD>314280000</TD>
+          <TD>1cfc82eb207589bdaca5cae39766956f</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150218_082746_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-18</TD>
+          <TD>2015-02-17</TD>
+          <TD>2015-02-18 08:25:32.118</TD>
+          <TD>Forster</TD>
+          <TD>152.400375</TD>
+          <TD>-6.093139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411461.fits.fz</TD>
+          <TD>c4d_150218_082746_ooi_g_v1.fits.fz</TD>
+          <TD>314020800</TD>
+          <TD>34ff1cbcd590496cdcd1488c380f418d</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_014541_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 01:43:24.321</TD>
+          <TD>Forster</TD>
+          <TD>150.085958</TD>
+          <TD>-6.093750</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411661.fits.fz</TD>
+          <TD>c4d_150219_014541_ooi_g_v1.fits.fz</TD>
+          <TD>314115840</TD>
+          <TD>7bd8abbb8028f4ad4157fb0cfe7c7df6</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_014738_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 01:45:22.215</TD>
+          <TD>Forster</TD>
+          <TD>152.395833</TD>
+          <TD>-6.093528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411662.fits.fz</TD>
+          <TD>c4d_150219_014738_ooi_g_v1.fits.fz</TD>
+          <TD>314133120</TD>
+          <TD>e1477adc56aca80002c1b59445c44813</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_032242_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 03:20:24.917</TD>
+          <TD>Forster</TD>
+          <TD>150.085708</TD>
+          <TD>-6.095028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411711.fits.fz</TD>
+          <TD>c4d_150219_032242_ooi_g_v1.fits.fz</TD>
+          <TD>314101440</TD>
+          <TD>d03b0549a093a56a26439fad711a5387</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_032437_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 03:22:22.327</TD>
+          <TD>Forster</TD>
+          <TD>152.395583</TD>
+          <TD>-6.093917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411712.fits.fz</TD>
+          <TD>c4d_150219_032437_ooi_g_v1.fits.fz</TD>
+          <TD>313977600</TD>
+          <TD>60c610fe09329e641d50d413dfdfc97c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_050310_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 05:00:53.599</TD>
+          <TD>Forster</TD>
+          <TD>150.085417</TD>
+          <TD>-6.095250</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411762.fits.fz</TD>
+          <TD>c4d_150219_050310_ooi_g_v1.fits.fz</TD>
+          <TD>314087040</TD>
+          <TD>34745760342234f77c115870f51f6303</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_050509_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 05:02:51.34</TD>
+          <TD>Forster</TD>
+          <TD>152.395625</TD>
+          <TD>-6.094583</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411763.fits.fz</TD>
+          <TD>c4d_150219_050509_ooi_g_v1.fits.fz</TD>
+          <TD>314101440</TD>
+          <TD>a6c62d565f88e1a2afdbc6a4234cb767</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_064208_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 06:39:53.88</TD>
+          <TD>Forster</TD>
+          <TD>150.086333</TD>
+          <TD>-6.094333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411812.fits.fz</TD>
+          <TD>c4d_150219_064208_ooi_g_v1.fits.fz</TD>
+          <TD>313911360</TD>
+          <TD>7f8990117d76c93a01ef3fe13f1730b1</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_064407_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 06:41:51.438</TD>
+          <TD>Forster</TD>
+          <TD>152.396667</TD>
+          <TD>-6.093806</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411813.fits.fz</TD>
+          <TD>c4d_150219_064407_ooi_g_v1.fits.fz</TD>
+          <TD>313902720</TD>
+          <TD>f15299a2a55eeb47a1f143eee6d47b8a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_082127_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 08:19:11.49</TD>
+          <TD>Forster</TD>
+          <TD>150.088500</TD>
+          <TD>-6.093278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411862.fits.fz</TD>
+          <TD>c4d_150219_082127_ooi_g_v1.fits.fz</TD>
+          <TD>314144640</TD>
+          <TD>9b6f8194dac3ff99b31c25de631aafa5</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150219_082331_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-19</TD>
+          <TD>2015-02-18</TD>
+          <TD>2015-02-19 08:21:13.671</TD>
+          <TD>Forster</TD>
+          <TD>152.398000</TD>
+          <TD>-6.093111</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00411863.fits.fz</TD>
+          <TD>c4d_150219_082331_ooi_g_v1.fits.fz</TD>
+          <TD>314107200</TD>
+          <TD>5b928126f92be477b04fcee8d7e0d400</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150220_014149_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-20</TD>
+          <TD>2015-02-19</TD>
+          <TD>2015-02-20 01:39:33.526</TD>
+          <TD>Forster</TD>
+          <TD>150.087375</TD>
+          <TD>-6.093139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412064.fits.fz</TD>
+          <TD>c4d_150220_014149_ooi_g_v1.fits.fz</TD>
+          <TD>313931520</TD>
+          <TD>5d0c81af4fa37bcb6926748b4c071995</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150220_014345_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-20</TD>
+          <TD>2015-02-19</TD>
+          <TD>2015-02-20 01:41:30.815</TD>
+          <TD>Forster</TD>
+          <TD>152.396833</TD>
+          <TD>-6.092944</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412065.fits.fz</TD>
+          <TD>c4d_150220_014345_ooi_g_v1.fits.fz</TD>
+          <TD>313945920</TD>
+          <TD>a95433a3bcb6aabc3e048caa259da2fd</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150221_013758_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-21</TD>
+          <TD>2015-02-20</TD>
+          <TD>2015-02-21 01:35:45.036</TD>
+          <TD>Forster</TD>
+          <TD>150.088875</TD>
+          <TD>-6.092917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412254.fits.fz</TD>
+          <TD>c4d_150221_013758_ooi_g_v1.fits.fz</TD>
+          <TD>314089920</TD>
+          <TD>6da97c380eca676607666b056e2397d2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150221_013956_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-21</TD>
+          <TD>2015-02-20</TD>
+          <TD>2015-02-21 01:37:40.92</TD>
+          <TD>Forster</TD>
+          <TD>152.398833</TD>
+          <TD>-6.092778</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412255.fits.fz</TD>
+          <TD>c4d_150221_013956_ooi_g_v1.fits.fz</TD>
+          <TD>314144640</TD>
+          <TD>677caaa6201f04a1f4681e94113c9105</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150221_080259_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-21</TD>
+          <TD>2015-02-20</TD>
+          <TD>2015-02-21 08:00:44.819</TD>
+          <TD>Forster</TD>
+          <TD>150.092708</TD>
+          <TD>-6.092333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412311.fits.fz</TD>
+          <TD>c4d_150221_080259_ooi_g_v1.fits.fz</TD>
+          <TD>314156160</TD>
+          <TD>b4a0b81bb4ece90883360d6f0ceeb6be</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150221_080504_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-21</TD>
+          <TD>2015-02-20</TD>
+          <TD>2015-02-21 08:02:40.85</TD>
+          <TD>Forster</TD>
+          <TD>152.401583</TD>
+          <TD>-6.092056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412312.fits.fz</TD>
+          <TD>c4d_150221_080504_ooi_g_v1.fits.fz</TD>
+          <TD>314084160</TD>
+          <TD>7bb4426a3fc908b4762c3d2cdcd3a0bb</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_013450_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 01:32:34.317</TD>
+          <TD>Forster</TD>
+          <TD>150.085750</TD>
+          <TD>-6.092972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412508.fits.fz</TD>
+          <TD>c4d_150222_013450_ooi_g_v1.fits.fz</TD>
+          <TD>314190720</TD>
+          <TD>a2a8968ca91b741bf76b6eccc2ef92c5</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_013646_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 01:34:32.241</TD>
+          <TD>Forster</TD>
+          <TD>152.395167</TD>
+          <TD>-6.092917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412509.fits.fz</TD>
+          <TD>c4d_150222_013646_ooi_g_v1.fits.fz</TD>
+          <TD>314058240</TD>
+          <TD>14f0fe023a235515f649622d919d9fef</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_031150_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 03:09:34.193</TD>
+          <TD>Forster</TD>
+          <TD>150.085458</TD>
+          <TD>-6.092972</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412558.fits.fz</TD>
+          <TD>c4d_150222_031150_ooi_g_v1.fits.fz</TD>
+          <TD>314118720</TD>
+          <TD>f77b92ec0e8f465b74f16647b08e890a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_031347_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 03:11:31.132</TD>
+          <TD>Forster</TD>
+          <TD>152.396167</TD>
+          <TD>-6.093306</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412559.fits.fz</TD>
+          <TD>c4d_150222_031347_ooi_g_v1.fits.fz</TD>
+          <TD>314107200</TD>
+          <TD>febaf69ff09e42450415d9f2c7bd69eb</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_045000_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 04:47:43.984</TD>
+          <TD>Forster</TD>
+          <TD>150.087042</TD>
+          <TD>-6.095056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412608.fits.fz</TD>
+          <TD>c4d_150222_045000_ooi_g_v1.fits.fz</TD>
+          <TD>314118720</TD>
+          <TD>735fc29e0a9c3d85d241d7aeadfe1014</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_045157_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 04:49:41.397</TD>
+          <TD>Forster</TD>
+          <TD>152.396375</TD>
+          <TD>-6.094333</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412609.fits.fz</TD>
+          <TD>c4d_150222_045157_ooi_g_v1.fits.fz</TD>
+          <TD>313983360</TD>
+          <TD>b34d1014a2a7128cdb930afc0b2ce2fa</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_062909_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 06:26:53.668</TD>
+          <TD>Forster</TD>
+          <TD>150.087625</TD>
+          <TD>-6.092528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412658.fits.fz</TD>
+          <TD>c4d_150222_062909_ooi_g_v1.fits.fz</TD>
+          <TD>314161920</TD>
+          <TD>5d3458db73dff43ade98f86138c529af</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_063108_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 06:28:51.165</TD>
+          <TD>Forster</TD>
+          <TD>152.396917</TD>
+          <TD>-6.092083</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412659.fits.fz</TD>
+          <TD>c4d_150222_063108_ooi_g_v1.fits.fz</TD>
+          <TD>314072640</TD>
+          <TD>20d20d8114c83476535162898bb30317</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_080750_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 08:05:33.017</TD>
+          <TD>Forster</TD>
+          <TD>150.092583</TD>
+          <TD>-6.091806</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412708.fits.fz</TD>
+          <TD>c4d_150222_080750_ooi_g_v1.fits.fz</TD>
+          <TD>314084160</TD>
+          <TD>ca58742bacfd5e88e8d70b463d8caf98</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150222_080952_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-22</TD>
+          <TD>2015-02-21</TD>
+          <TD>2015-02-22 08:07:33.648</TD>
+          <TD>Forster</TD>
+          <TD>152.401708</TD>
+          <TD>-6.092028</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00412709.fits.fz</TD>
+          <TD>c4d_150222_080952_ooi_g_v1.fits.fz</TD>
+          <TD>314046720</TD>
+          <TD>087a68ea0fc857f53e48206e72e2455e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_011236_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 01:10:20.349</TD>
+          <TD>Forster</TD>
+          <TD>150.084833</TD>
+          <TD>-6.091278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413589.fits.fz</TD>
+          <TD>c4d_150224_011236_ooi_r_v1.fits.fz</TD>
+          <TD>316085760</TD>
+          <TD>b5cb9b3a74c41be0025d7b4da96d5b29</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_011440_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 01:12:24.243</TD>
+          <TD>Forster</TD>
+          <TD>152.395667</TD>
+          <TD>-6.091278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413590.fits.fz</TD>
+          <TD>c4d_150224_011440_ooi_r_v1.fits.fz</TD>
+          <TD>316126080</TD>
+          <TD>a8016b8bd9283c49233a538714c2b563</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_024956_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 02:47:40.435</TD>
+          <TD>Forster</TD>
+          <TD>150.085583</TD>
+          <TD>-6.093139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413639.fits.fz</TD>
+          <TD>c4d_150224_024956_ooi_g_v1.fits.fz</TD>
+          <TD>314115840</TD>
+          <TD>5a4ca1843795a5d4ebdab9445edac24b</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_025154_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 02:49:37.92</TD>
+          <TD>Forster</TD>
+          <TD>152.395417</TD>
+          <TD>-6.093528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413640.fits.fz</TD>
+          <TD>c4d_150224_025154_ooi_g_v1.fits.fz</TD>
+          <TD>314184960</TD>
+          <TD>cd7208b4d0143f8ed760efe190c62901</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_041831_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 04:16:13.163</TD>
+          <TD>Forster</TD>
+          <TD>150.085000</TD>
+          <TD>-6.094889</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413684.fits.fz</TD>
+          <TD>c4d_150224_041831_ooi_g_v1.fits.fz</TD>
+          <TD>314179200</TD>
+          <TD>7ceee1ed1d988e9bf822a5377648668c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150224_042024_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-24</TD>
+          <TD>2015-02-23</TD>
+          <TD>2015-02-24 04:18:10.11</TD>
+          <TD>Forster</TD>
+          <TD>152.395083</TD>
+          <TD>-6.093917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00413685.fits.fz</TD>
+          <TD>c4d_150224_042024_ooi_g_v1.fits.fz</TD>
+          <TD>314069760</TD>
+          <TD>718f72161819b168e6a1636bb4fc70d6</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150225_043049_ooi_g_v1.fits.fz</TD>
+          <TD>2014B-0146</TD>
+      <TD></TD>
+          <TD>2016-02-25</TD>
+          <TD>2015-02-24</TD>
+          <TD>2015-02-25 04:28:36.08</TD>
+          <TD>Sullivan</TD>
+          <TD>150.088167</TD>
+          <TD>-6.099472</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0146/DECam_00413996.fits.fz</TD>
+          <TD>c4d_150225_043049_ooi_g_v1.fits.fz</TD>
+          <TD>313992000</TD>
+          <TD>4941173e093e2a1495b2df3dd3e3940c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150225_043249_ooi_g_v1.fits.fz</TD>
+          <TD>2014B-0146</TD>
+      <TD></TD>
+          <TD>2016-02-25</TD>
+          <TD>2015-02-24</TD>
+          <TD>2015-02-25 04:30:32.881</TD>
+          <TD>Sullivan</TD>
+          <TD>152.398292</TD>
+          <TD>-6.099167</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2014B-0146/DECam_00413997.fits.fz</TD>
+          <TD>c4d_150225_043249_ooi_g_v1.fits.fz</TD>
+          <TD>313977600</TD>
+          <TD>1b4a488aeee611036cb28ffc6b531b66</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_011528_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 01:13:14.229</TD>
+          <TD>Forster</TD>
+          <TD>150.084625</TD>
+          <TD>-6.092250</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415276.fits.fz</TD>
+          <TD>c4d_150227_011528_ooi_r_v1.fits.fz</TD>
+          <TD>316725120</TD>
+          <TD>d8e3f7ab0b06ac8734781b21135f9e28</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_011727_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 01:15:11.094</TD>
+          <TD>Forster</TD>
+          <TD>152.394875</TD>
+          <TD>-6.092056</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415277.fits.fz</TD>
+          <TD>c4d_150227_011727_ooi_r_v1.fits.fz</TD>
+          <TD>316753920</TD>
+          <TD>fc2c5c499bf54f031af2b2facbb86b4c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_023731_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 02:35:14.471</TD>
+          <TD>Forster</TD>
+          <TD>150.085250</TD>
+          <TD>-6.094778</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415318.fits.fz</TD>
+          <TD>c4d_150227_023731_ooi_g_v1.fits.fz</TD>
+          <TD>314720640</TD>
+          <TD>4760a7dee13eb5b1942e5def09319636</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_023928_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 02:37:12.052</TD>
+          <TD>Forster</TD>
+          <TD>152.394708</TD>
+          <TD>-6.094528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415319.fits.fz</TD>
+          <TD>c4d_150227_023928_ooi_g_v1.fits.fz</TD>
+          <TD>314755200</TD>
+          <TD>f7ec49c85f3716d0df7fbd2cab279d18</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_041539_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 04:13:23.333</TD>
+          <TD>Forster</TD>
+          <TD>150.085167</TD>
+          <TD>-6.096556</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415368.fits.fz</TD>
+          <TD>c4d_150227_041539_ooi_g_v1.fits.fz</TD>
+          <TD>314651520</TD>
+          <TD>1f54df2b343778996075e280a808253e</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150227_041737_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-08-27</TD>
+          <TD>2015-02-26</TD>
+          <TD>2015-02-27 04:15:20.496</TD>
+          <TD>Forster</TD>
+          <TD>152.394500</TD>
+          <TD>-6.095528</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00415369.fits.fz</TD>
+          <TD>c4d_150227_041737_ooi_g_v1.fits.fz</TD>
+          <TD>314608320</TD>
+          <TD>40fbdb9e3401147ffe2d34076e8a4c21</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150308_054154_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-08</TD>
+          <TD>2015-03-07</TD>
+          <TD>2015-03-08 05:39:24.693</TD>
+          <TD>Forster</TD>
+          <TD>150.088083</TD>
+          <TD>-6.096222</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419387.fits.fz</TD>
+          <TD>c4d_150308_054154_ooi_r_v1.fits.fz</TD>
+          <TD>317070720</TD>
+          <TD>7b5108d3f055846c96c284aa70af4006</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150308_054415_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-08</TD>
+          <TD>2015-03-07</TD>
+          <TD>2015-03-08 05:41:43.459</TD>
+          <TD>Forster</TD>
+          <TD>152.397208</TD>
+          <TD>-6.095139</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419388.fits.fz</TD>
+          <TD>c4d_150308_054415_ooi_r_v1.fits.fz</TD>
+          <TD>317067840</TD>
+          <TD>5d981264a9f40fca3f4ff3c31934d4f9</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150309_054206_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-09</TD>
+          <TD>2015-03-08</TD>
+          <TD>2015-03-09 05:39:34.629</TD>
+          <TD>Forster</TD>
+          <TD>150.086417</TD>
+          <TD>-6.095500</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419795.fits.fz</TD>
+          <TD>c4d_150309_054206_ooi_g_v1.fits.fz</TD>
+          <TD>314694720</TD>
+          <TD>f046241285e19e5ec4c776e40be7cc39</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150309_054425_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-09</TD>
+          <TD>2015-03-08</TD>
+          <TD>2015-03-09 05:41:53.483</TD>
+          <TD>Forster</TD>
+          <TD>152.396208</TD>
+          <TD>-6.095611</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419796.fits.fz</TD>
+          <TD>c4d_150309_054425_ooi_g_v1.fits.fz</TD>
+          <TD>314706240</TD>
+          <TD>1c0454091842a81e323eb1a96ec7a709</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150309_062229_ooi_i_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-09</TD>
+          <TD>2015-03-08</TD>
+          <TD>2015-03-09 06:19:56.758</TD>
+          <TD>Forster</TD>
+          <TD>150.087958</TD>
+          <TD>-6.094833</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419813.fits.fz</TD>
+          <TD>c4d_150309_062229_ooi_i_v1.fits.fz</TD>
+          <TD>316342080</TD>
+          <TD>88ad0a81f49b5b2b40e3562f448b1e1c</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150309_062446_ooi_i_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-09</TD>
+          <TD>2015-03-08</TD>
+          <TD>2015-03-09 06:22:13.718</TD>
+          <TD>Forster</TD>
+          <TD>152.398333</TD>
+          <TD>-6.094917</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>102.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00419814.fits.fz</TD>
+          <TD>c4d_150309_062446_ooi_i_v1.fits.fz</TD>
+          <TD>316290240</TD>
+          <TD>91a4b9c7e650d7ae8c6f0e0f10b4b0f2</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_010005_ooi_i_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 00:57:50.139</TD>
+          <TD>Forster</TD>
+          <TD>150.087542</TD>
+          <TD>-6.093278</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421504.fits.fz</TD>
+          <TD>c4d_150314_010005_ooi_i_v1.fits.fz</TD>
+          <TD>316252800</TD>
+          <TD>d565174f780a68d9ed2a089cc28a5b9a</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_010204_ooi_i_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 00:59:48.132</TD>
+          <TD>Forster</TD>
+          <TD>152.397875</TD>
+          <TD>-6.092639</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>i DECam SDSS c0003 7835.0 1470.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421505.fits.fz</TD>
+          <TD>c4d_150314_010204_ooi_i_v1.fits.fz</TD>
+          <TD>316229760</TD>
+          <TD>3dbabdd6a3bcf67aa59375b938d6e313</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_025929_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 02:57:12.545</TD>
+          <TD>Forster</TD>
+          <TD>150.086750</TD>
+          <TD>-6.093750</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421556.fits.fz</TD>
+          <TD>c4d_150314_025929_ooi_r_v1.fits.fz</TD>
+          <TD>315636480</TD>
+          <TD>003a971a60096491d38b845d8b86b506</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_030125_ooi_r_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 02:59:09.466</TD>
+          <TD>Forster</TD>
+          <TD>152.397708</TD>
+          <TD>-6.093722</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>r DECam SDSS c0002 6415.0 1480.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421557.fits.fz</TD>
+          <TD>c4d_150314_030125_ooi_r_v1.fits.fz</TD>
+          <TD>315622080</TD>
+          <TD>6c1d2e54e21fa2fff8f33b740a31ca59</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_041507_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 04:12:52.115</TD>
+          <TD>Forster</TD>
+          <TD>150.087667</TD>
+          <TD>-6.094611</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421594.fits.fz</TD>
+          <TD>c4d_150314_041507_ooi_g_v1.fits.fz</TD>
+          <TD>314225280</TD>
+          <TD>bea9018b6ec9a0534bbe346db1101e84</TD>
+</TR>
+<TR>
+          <TD>http://nsaserver.sdm.noao.edu:7003/?fileRef=c4d_150314_041703_ooi_g_v1.fits.fz</TD>
+          <TD>2015A-0608</TD>
+      <TD></TD>
+          <TD>2016-09-14</TD>
+          <TD>2015-03-13</TD>
+          <TD>2015-03-14 04:14:49.367</TD>
+          <TD>Forster</TD>
+          <TD>152.397583</TD>
+          <TD>-6.094361</TD>
+          <TD>ct4m</TD>
+          <TD>decam</TD>
+          <TD>g DECam SDSS c0001 4720.0 1520.0</TD>
+          <TD>86.0</TD>
+          <TD>object</TD>
+          <TD>imaging</TD>
+          <TD>InstCal</TD>
+          <TD>image</TD>
+      <TD></TD>
+      <TD></TD>
+          <TD>/data_local/images/DTS/2015A-0608/DECam_00421595.fits.fz</TD>
+          <TD>c4d_150314_041703_ooi_g_v1.fits.fz</TD>
+          <TD>314052480</TD>
+          <TD>33a18159c79ca54de2884250955e88f7</TD>
+</TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>
