@@ -1,3 +1,6 @@
+# Licensed under a 3-clause BSD style license - see LICENSE.rst
+# DECam tools are being developed by Roberto Pablo Munoz, PhD
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
