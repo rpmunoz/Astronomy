@@ -1,4 +1,16 @@
-** How to run the code
+## This code was creating for showing the use of shared memory and multiprocess in Python3
+
+*Implemented recipes:*
+median
+convolve
+
+*Flags*
+ncpu: Number of CPUs
+ncode: Number of cores
+nx: Number of bins along X for processing image
+ny: Number of bins along Y for processing image
+fft: Apply the FFT convolution
+fft_interpol: Interpolate NaN values when doing FFT convolution
 
 python3 process_image.py --recipe convolve -f --ncore 1 --nx 1 --ny 1
 
