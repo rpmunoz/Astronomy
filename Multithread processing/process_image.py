@@ -55,14 +55,33 @@ class Worker_convolve(mp.Process):
             im_size = np.asarray(shared_im.shape)
             kernel_shape = np.asarray(shared_kernel.shape)
 
-            im_pad = (kernel_shape - 1) / 2 + 10
-            x_pad = [0 if x_range[0] == 0 else -im_pad[0], 0 if x_range[1] == (im_size[0] - 1) else im_pad[0]]
-            y_pad = [0 if y_range[0] == 0 else -im_pad[1], 0 if y_range[1] == (im_size[1] - 1) else im_pad[1]]
+            dx=(x_range[1]-x_range[0])
+            dy=(y_range[1]-y_range[0])
+            im_padx = np.full(2, np.ceil( (kernel_shape[1] - 1) / 2), dtype=int)
+            im_pady = np.full(2, np.ceil( (kernel_shape[0] - 1) / 2), dtype=int)
+
+            if x_range[0]==0:
+                im_padx[0]=0
+            if x_range[1]==shared_im_shape[1]:
+                im_padx[1]=0
+
+            if y_range[0]==0:
+                im_pady[0]=0
+            if y_range[1]==shared_im_shape[0]:
+                im_pady[1]=0
+
+            if do_debug:
+                print('IMAGE SHAPE: ', shared_im_shape)
+                print('IMAGE RANGE - x_range: ', x_range, ' - y_range: ', y_range)
+                print('dx: ', dx, ' - im_padx: ', im_padx)
+                print('dy: ', dy, ' - im_pady: ', im_pady)
+                print('CONVOLVE_FFT - x_range: ', [x_range[0] - im_padx[0], x_range[1]+im_padx[1]], ' - y_range: ', [y_range[0] - im_pady[0], y_range[1] + im_pady[1]])
+                print('CROP -  x_range: ', [im_padx[0], dx+im_padx[0]], ' - y_range: ', [im_pady[0], dy+im_pady[0]])
+                print('')
 
             shared_nim[y_range[0]:y_range[1], x_range[0]:x_range[1]] = convolve(
-                shared_im[y_range[0] + y_pad[0]:y_range[1] + y_pad[1], x_range[0] + x_pad[0]:x_range[1] + x_pad[1]],
-                shared_kernel, normalize_kernel=True)[-y_pad[0]:y_range[1] - y_range[0] - y_pad[0],
-                -x_pad[0]:x_range[1] - x_range[0] - x_pad[0]]
+                shared_im[y_range[0] - im_pady[0]:y_range[1] + im_pady[1], x_range[0] - im_padx[0]:x_range[1] + im_padx[1]],
+                shared_kernel, normalize_kernel=True)[im_pady[0]:dy + im_pady[0], im_padx[0]:dx + im_padx[0]]
 
             #print('Worker_convolve done: ', mp.current_process())
             self.result_queue.put(id)
@@ -98,24 +117,34 @@ class Worker_convolve_fft(mp.Process):
             im_pady = np.full(2, np.ceil( (kernel_shape[0] - 1) / 2), dtype=int)
 
             if do_padding:
-                if x_range[0]==0:
+                if x_range[0]==0 and x_range[1]==shared_im_shape[1]:
                     im_padx[0]=0
-                else:
-                    im_padx[0]= int(2**(np.ceil(np.log2(dx+im_padx[0]+im_padx[1]))) - (dx+im_padx[1])) 
-                if x_range[1]==shared_im_shape[1]:
                     im_padx[1]=0
-                else:
-                    im_padx[1]= int(2**(np.ceil(np.log2(dx+im_padx[0]+im_padx[1]))) - (dx+im_padx[0]))
+                else: 
+                    if x_range[0]==0:
+                        im_padx[0]=0
+                    if x_range[1]==shared_im_shape[0]:
+                        im_padx[1]=0
 
-                if y_range[0]==0:
+                    if x_range[0]>0:
+                        im_padx[0]= int(2**(np.ceil(np.log2(dx+im_padx[0]+im_padx[1]))) - (dx+im_padx[1]))
+                    if x_range[1]<shared_im_shape[0]:
+                        im_padx[1]= int(2**(np.ceil(np.log2(dx+im_padx[0]+im_padx[1]))) - (dx+im_padx[0]))
+
+                if y_range[0]==0 and y_range[1]==shared_im_shape[0]:
                     im_pady[0]=0
-                else:
-                    print('else y_range[0]: ', 2**(np.ceil(np.log2(dy+im_pady[0]+im_pady[1]))), (dy+im_pady[1]))
-                    im_pady[0]= int(2**(np.ceil(np.log2(dy+im_pady[0]+im_pady[1]))) - (dy+im_pady[1])) 
-                if y_range[1]==shared_im_shape[0]:
                     im_pady[1]=0
                 else:
-                    im_pady[1]= int(2**(np.ceil(np.log2(dy+im_pady[0]+im_pady[1]))) - (dy+im_pady[0]))
+                    if y_range[0]==0:
+                        im_pady[0]=0
+                    if y_range[1]==shared_im_shape[0]:
+                        im_pady[1]=0
+
+                    if y_range[0]>0:
+                        im_pady[0]= int(2**(np.ceil(np.log2(dy+im_pady[0]+im_pady[1]))) - (dy+im_pady[1])) 
+                    if y_range[1]<shared_im_shape[0]:
+                        im_pady[1]= int(2**(np.ceil(np.log2(dy+im_pady[0]+im_pady[1]))) - (dy+im_pady[0]))   
+
             else:
                 if x_range[0]==0:
                     im_padx[0]=0
@@ -127,14 +156,19 @@ class Worker_convolve_fft(mp.Process):
                 if y_range[1]==shared_im_shape[0]:
                     im_pady[1]=0
 
-            print('shared_im_shape: ', shared_im_shape)
-            print('x_range: ', x_range, ' - y_range: ', y_range)
-            print('dx: ', dx, ' - im_padx: ', im_padx)
-            print('dy: ', dy, ' - im_pady: ', im_pady)
+            if do_debug:
+                print('IMAGE SHAPE: ', shared_im_shape)
+                print('IMAGE RANGE - x_range: ', x_range, ' - y_range: ', y_range)
+                print('dx: ', dx, ' - im_padx: ', im_padx)
+                print('dy: ', dy, ' - im_pady: ', im_pady)
+                print('CONVOLVE_FFT - x_range: ', [x_range[0] - im_padx[0], x_range[1]+im_padx[1]], ' - y_range: ', [y_range[0] - im_pady[0], y_range[1] + im_pady[1]])
+                print('CROP -  x_range: ', [im_padx[0], dx+im_padx[0]], ' - y_range: ', [im_pady[0], dy+im_pady[0]])
+                print('FFT_INTERPOL: ', do_fft_interpol)
+                print('')
 
             shared_nim[y_range[0]:y_range[1], x_range[0]:x_range[1]] = convolve_fft(
-                shared_im[y_range[0] - im_pady[0]:y_range[1] + im_pady[1], x_range[0] + im_padx[0]:x_range[1] + im_padx[1]],
-                shared_kernel, normalize_kernel=True)[im_pady[0]:dy + im_pady[0],
+                shared_im[y_range[0] - im_pady[0]:y_range[1] + im_pady[1], x_range[0] - im_padx[0]:x_range[1] + im_padx[1]],
+                shared_kernel, normalize_kernel=True, interpolate_nan=do_fft_interpol)[im_pady[0]:dy + im_pady[0],
                 im_padx[0]:dx + im_padx[0]]
 
             #print('Worker_convolve done: ', mp.current_process())
@@ -178,7 +212,9 @@ if __name__ == "__main__":
     do_recipe='median'
     do_overwrite=False
     do_fft=False
+    do_fft_interpol=False
     do_padding=False
+    do_debug=False
     n_cpu = 1
     n_core = 4
     n_x=1
@@ -189,7 +225,7 @@ if __name__ == "__main__":
     kernel_shape = np.full(2, round(4 * kernel_sigma / 2.) * 2 + 1, dtype=np.int)  # Kernel size in pixels
 
     try:
-        opts, args = getopt.getopt(argv, "hfri:o:", ["recipe=", "ifile=", "ofile=","ncpu=","ncore=","nx=","ny=","fft","padding"])
+        opts, args = getopt.getopt(argv, "hfri:o:", ["recipe=", "ifile=", "ofile=","ncpu=","ncore=","nx=","ny=","fft","padding","debug","fft_interpol"])
     except getopt.GetoptError:
         print('process_image.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
@@ -215,8 +251,12 @@ if __name__ == "__main__":
             do_overwrite=True
         elif opt == '--fft':
             do_fft=True
+        elif opt == '--fft_interpol':
+            do_fft_interpol=True
         elif opt == '--padding':
             do_padding=True
+        elif opt == '--debug':
+            do_debug=True
 
     n_process = np.min( [n_cpu * n_core * hyper_thread, n_x*n_y] )
     grid_n = [n_y, n_x]  # Number of bins to divide image along [Y,X]
