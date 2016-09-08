@@ -18,6 +18,7 @@ import time
 import numpy as np
 import pyfits
 import multiprocessing as mp
+import queue
 import ctypes
 
 from astropy.convolution import convolve, convolve_fft, Gaussian2DKernel
@@ -45,11 +46,11 @@ class Worker_convolve(mp.Process):
             # get a task
             try:
                 x_range, y_range = self.work_queue.get_nowait()
-            except Queue.Empty:
+            except queue.Empty:
                 break
 
             # the actual processing
-            print('Worker_convolve running - id: ', mp.current_process())
+            print('Running process id: ', mp.current_process().name)
 
             im_size = np.asarray(shared_im.shape)
             kernel_size = np.asarray(shared_kernel.shape)
@@ -63,7 +64,7 @@ class Worker_convolve(mp.Process):
                 shared_kernel, normalize_kernel=True)[-x_pad[0]:x_range[1] - x_range[0] - x_pad[0],
                                                                        -y_pad[0]:y_range[1] - y_range[0] - y_pad[0]]
 
-            print('Worker_convolve done: ', mp.current_process())
+            #print('Worker_convolve done: ', mp.current_process())
             self.result_queue.put(id)
 
 class Worker_median(mp.Process):
@@ -83,29 +84,36 @@ class Worker_median(mp.Process):
             # get a task
             try:
                 x_range, y_range = self.work_queue.get_nowait()
-            except Queue.Empty:
+            except queue.Empty:
                 break
 
             # the actual processing
-            print('Worker_median running - id: ', mp.current_process())
+            print('Running process id: ', mp.current_process().name)
 
             im_size = np.asarray(shared_im.shape)
 
             shared_nim[x_range[0]:x_range[1], y_range[0]:y_range[1]] = \
                 shared_im[x_range[0]:x_range[1], y_range[0]:y_range[1]] - \
-                np.median(shared_im[x_range[0]:x_range[1], y_range[0]:y_range[1]])
+                np.nanmedian(shared_im[x_range[0]:x_range[1], y_range[0]:y_range[1]])
 
-            print('Worker_median done - id: ', mp.current_process())
+            #print('Worker_median done - id: ', mp.current_process().name)
             self.result_queue.put(id)
 
 
-def main(argv):
+if __name__ == "__main__":
+
+    argv=sys.argv[1:]
     im_file_in='data/VCC1010.MASKED.fits'
     do_recipe='median'
     do_overwrite=False
+    n_cpu = 1
+    n_core = 4
+    n_x=1
+    n_y=6
+    hyper_thread=1 # If you have hyper threading, then set the value to 2, otherwise set to 1
 
     try:
-        opts, args = getopt.getopt(argv, "hfri:o:", ["recipe=", "ifile=", "ofile="])
+        opts, args = getopt.getopt(argv, "hfri:o:", ["recipe=", "ifile=", "ofile=","ncpu=","ncore=","nx=","ny="])
     except getopt.GetoptError:
         print('process_image.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
@@ -119,14 +127,20 @@ def main(argv):
             im_file_out = arg
         elif opt in ("-r", "--recipe"):
             do_recipe = arg
+        elif opt in ("--ncpu"):
+            n_cpu = int(arg)
+        elif opt in ("--ncore"):
+            n_core = int(arg)
+        elif opt in ("--nx"):
+            n_x = int(arg)
+        elif opt in ("--ny"):
+            n_y = int(arg)
         elif opt == '-f':
             do_overwrite=True
 
+    n_process = np.min( [n_cpu * n_core * hyper_thread, n_x*n_y] )
+    grid_n = [n_y, n_x]  # Number of bins to divide image along [Y,X]
     im_file_out = 'data/VCC1010.MASKED.'+do_recipe.upper()+'.fits'
-
-    n_cpu = 1
-    n_core = 4
-    n_processes = n_cpu * n_core * 1
 
     print('Reading image: ', im_file_in)
     hdulist = pyfits.open(im_file_in)
@@ -151,8 +165,6 @@ def main(argv):
         tic = time.time()
         if do_recipe=='median':
 
-            grid_n = [1, 6]  # Number of bins to divide image along [X,Y]
-
             work_queue = mp.Queue()
             grid_n = np.asarray(grid_n)
             grid_mesh = np.ceil(im_size * 1. / grid_n).astype(int)
@@ -173,13 +185,14 @@ def main(argv):
             procs = []
 
             # spawn workers
-            for i in range(n_processes):
-                worker = Worker_convolve(work_queue, result_queue)
+            for i in range(n_process):
+                worker = Worker_median(work_queue, result_queue)
                 procs.append(worker)
                 worker.start()
+                time.sleep(0.01)
 
             # collect the results off the queue
-            for i in range(n_processes):
+            for i in range(n_process):
                 result_queue.get()
 
             for p in procs:
@@ -189,18 +202,17 @@ def main(argv):
 
         elif do_recipe=='convolve':
 
-            grid_n = [6, 6]  # Number of bins to divide image along [X,Y]
-            kernel_sigma = 20.  # Kernel sigma in pixels
+            kernel_sigma = 3.  # Kernel sigma in pixels
             kernel_size = np.full(2, round(4 * kernel_sigma / 2.) * 2 + 1, dtype=np.int)  # Kernel size in pixels
 
             print("Generating gaussian kernel")
             print('Kernel_size: ', kernel_size, ' - Kernel_sigma: ', kernel_sigma)
             kernel_data = np.asarray(
-                Gaussian2DKernel(kernel_small_sigma, x_size=kernel_small_size[0], y_size=kernel_small_size[1],
-                                 mode='integrate'))
+                Gaussian2DKernel(kernel_sigma, x_size=kernel_size[0], y_size=kernel_size[1],
+                    mode='center'))  #mode='integrate'))
             kernel_size = kernel_data.shape
 
-            shared_kernel_base = mp.Array(ctypes.c_float, [kernel_size[0] * kernel_size[1]])
+            shared_kernel_base = mp.Array(ctypes.c_float, kernel_data.size)
             shared_kernel = np.ctypeslib.as_array(shared_kernel_base.get_obj())
             shared_kernel = shared_kernel.reshape(kernel_size[0], kernel_size[1])
             shared_kernel[:] = kernel_data
@@ -225,13 +237,13 @@ def main(argv):
             procs = []
 
             # spawn workers
-            for i in range(n_processes):
+            for i in range(n_process):
                 worker = Worker_convolve(work_queue, result_queue)
                 procs.append(worker)
                 worker.start()
 
             # collect the results off the queue
-            for i in range(n_processes):
+            for i in range(n_process):
                 result_queue.get()
 
             for p in procs:
@@ -245,7 +257,3 @@ def main(argv):
 
         print('Writing image: ', im_file_out)
         pyfits.writeto(im_file_out, shared_nim, header=im_h)
-
-
-if __name__ == "__main__":
-    main(sys.argv[1:])
