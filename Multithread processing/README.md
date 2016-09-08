@@ -7,7 +7,7 @@
 
 *Flags*
 - ncpu: Number of CPUs
-- ncode: Number of cores
+- ncore: Number of cores
 - nx: Number of bins along X for processing image
 - ny: Number of bins along Y for processing image
 - fft: Apply the FFT convolution
