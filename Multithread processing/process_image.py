@@ -217,6 +217,9 @@ if __name__ == "__main__":
     do_debug=False
     n_cpu = 1
     n_core = 4
+    # You can also ask the os how many processors has
+    # n_cpu = mp.cpu_count()
+    # n_core = 4 #Should be your physical threads perhaps?
     n_x=1
     n_y=6
     hyper_thread=1 # If you have hyper threading, then set the value to 2, otherwise set to 1
